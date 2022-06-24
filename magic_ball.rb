@@ -39,7 +39,9 @@ greetings = [
 ]
 
 # Выводим случайный элемент массива greetings
-puts greetings.sample + "\n\n"
+puts greetings.sample
+puts
+puts
 # Придаем шару загадочности :) :
 # добавляем паузу в пару секунд между выводом случайного элемента из массива greetings и выводом случайного элемента из массива answers
 sleep(2)
